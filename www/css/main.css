@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  width: auto;
+  height: 600px;
+}
+
+.container {
+  height: 600px;
+  width: 800px;
+  border: 1px solid black;
+  position: absolute;
+  top: 5%;
+}
+
+.container .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 70px;
+  border-bottom: 1px solid black;
+}
+
+.container .header .title {
+  padding: 0 5px;
+}
+
+.container .header .title h1 {
+  margin-bottom: 5px;
+}
+
+.container .header .title span {
+  margin-right: 5px;
+  font-size: small;
+}
+
+.container .header .close button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.container .field {
+  width: 800px;
+  height: 530px;
+  padding: 5px;
+  overflow: auto;
+}
+
+.container .field .post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .field .post .avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-right: 1px solid black;
+}
+
+.container .field .post .avatar * {
+  padding: 5px;
+}
+
+.container .field .post .avatar .pic {
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .field .post .avatar .pic p {
+  font-weight: bold;
+  font-size: large;
+}
+
+.container .field .post .text {
+  width: 650px;
+  margin-left: 10px;
+}
+
+.container .field .post .text * {
+  padding: 5px;
+}
+
+.container .field .post .text .message p {
+  border: 1px solid black;
+}
+/*# sourceMappingURL=main.css.map */
